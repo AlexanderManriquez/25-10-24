@@ -11,18 +11,22 @@ const router = createRouter({
     },
     {
       path: '/cvcristian',
-      name: 'cvcristin',
+      name: 'cvcristian',
 
-      component: () => import('../views/AboutView.vue')
+      component: () => import('../views/CvCristian.vue'),
     },
     {
       path: '/cvjuan',
-      name: 'cvjuan'
+      name: 'cvjuan',
+      component: () => import('../views/CvCristian.vue'),
+
       
     },
     {
       path: '/cvalexander',
-      name: 'cvalexander'
+      name: 'cvalexander',
+      component: () => import('../views/CvCristian.vue'),
+
     }
   ]
 })
