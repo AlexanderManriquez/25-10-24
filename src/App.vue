@@ -36,9 +36,9 @@ import AlexanderView from "./views/AlexanderView.vue";
       </nav>
 
   </header>
-  <main>
-    <RouterView />
-  </main>
+
+  <RouterView />
+
 </template>
 
 <style scoped>
