@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
+import AlexanderView from "./views/AlexanderView.vue";
 
 </script>
 
@@ -35,7 +36,9 @@ import { RouterLink, RouterView } from "vue-router";
       </nav>
 
   </header>
-
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
