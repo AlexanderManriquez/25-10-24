@@ -12,7 +12,6 @@ const router = createRouter({
     {
       path: '/cvcristian',
       name: 'cvcristian',
-
       component: () => import('../views/CvCristian.vue'),
     },
     {
@@ -25,8 +24,7 @@ const router = createRouter({
     {
       path: '/cvalexander',
       name: 'cvalexander',
-      component: () => import('../views/CvCristian.vue'),
-
+      component: () => import('../views/AlexanderView.vue')
     }
   ]
 })
