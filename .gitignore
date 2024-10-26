@@ -13,13 +13,19 @@ dist
 dist-ssr
 coverage
 *.local
+<<<<<<< HEAD
 package-lock.json
+=======
+>>>>>>> e7caea4324219b7289d9ea816ed3bdab0c0fb935
 
 /cypress/videos/
 /cypress/screenshots/
 
 # Editor directories and files
+<<<<<<< HEAD
 ./vscode
+=======
+>>>>>>> e7caea4324219b7289d9ea816ed3bdab0c0fb935
 .vscode/*
 !.vscode/extensions.json
 .idea
